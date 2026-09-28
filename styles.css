@@ -460,6 +460,10 @@ code {
   html, body { background: white !important; font-size: 9.5pt; }
   body { color: #111; }
   .no-print, .toolbar-shell { display: none !important; }
+  .is-editing [data-edit-path] {
+    outline: none !important;
+    background: transparent !important;
+  }
   .hero {
     color: #111;
     background: white !important;
