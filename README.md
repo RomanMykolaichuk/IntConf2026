@@ -11,7 +11,7 @@ Static web project for the **RDDC–NDUU International Conference: Artificial In
 - **Download data** export to a ready-to-replace `programme.js` file;
 - clean A4 **Print / Save PDF** output;
 - GitHub Pages deployment workflow;
-- QR-free conference artwork stored in `assets/conference-brand.jpg`.
+- QR-free conference artwork stored in `assets/conference-brand.webp`.
 
 ## Easiest way to edit
 
@@ -36,7 +36,7 @@ The data structure is intentionally plain: conference metadata → days → sect
 
 The supplied conference visual has been cropped before the QR-code block and stored as:
 
-`assets/conference-brand.jpg`
+`assets/conference-brand.webp`
 
 The website references this local repository asset; it does not depend on an external image URL.
 
