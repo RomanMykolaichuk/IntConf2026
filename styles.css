@@ -84,7 +84,7 @@ code {
 }
 .hero__brand {
   width: min(100%, 355px);
-  aspect-ratio: 421 / 540;
+  aspect-ratio: 421 / 545;
   object-fit: cover;
   border-radius: 18px;
   box-shadow: 0 32px 90px rgba(0, 0, 0, .38);
@@ -363,6 +363,44 @@ code {
 .site-footer__inner span { color: #9fc2de; }
 .site-footer__status { text-align: right; }
 .fatal-error { max-width: 50rem; margin: 10vh auto; padding: 2rem; }
+
+
+/* Quick editor */
+.edit-banner {
+  margin: 1.25rem 0 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid #93c7ec;
+  border-radius: 12px;
+  color: #153f62;
+  background: #eaf7ff;
+  box-shadow: 0 8px 24px rgba(9, 53, 94, .06);
+}
+.edit-banner code { background: rgba(255,255,255,.75); }
+.is-editing [data-edit-path] {
+  outline: 2px dashed rgba(15, 94, 168, .58);
+  outline-offset: 3px;
+  border-radius: 4px;
+  cursor: text;
+  min-width: 1.5em;
+}
+.is-editing [data-edit-path]:hover,
+.is-editing [data-edit-path]:focus {
+  outline-style: solid;
+  outline-color: var(--blue-500);
+  background: rgba(232, 244, 252, .38);
+}
+.is-editing [contenteditable="true"]:empty::before {
+  content: attr(data-placeholder);
+  color: #8192a3;
+  font-style: italic;
+}
+.is-editing .hero [data-edit-path]:focus,
+.is-editing .hero [data-edit-path]:hover {
+  background: rgba(255,255,255,.10);
+}
+.is-editing .programme-item__remarks:empty {
+  min-height: 1.35em;
+}
 
 @media (max-width: 900px) {
   .hero__inner { grid-template-columns: 190px 1fr; min-height: auto; }
