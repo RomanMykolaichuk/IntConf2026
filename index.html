@@ -13,13 +13,13 @@
 
   <header class="hero">
     <div class="hero__inner">
-      <div class="hero__brand-wrap" aria-hidden="true">
-        <img class="hero__brand" src="assets/conference-brand.webp" alt="">
+      <div class="hero__brand-wrap">
+        <img class="hero__brand" src="assets/conference-brand.jpg" alt="Conference identity: Artificial Intelligence in Military Education and Defence, RDDC and National Defence University of Ukraine">
       </div>
       <div class="hero__copy">
         <div class="eyebrow">International Conference · Draft Programme</div>
-        <h1>Artificial Intelligence in Military Education and Defence</h1>
-        <p class="hero__lead">RDDC · National Defence University of Ukraine</p>
+        <h1 id="conference-title"></h1>
+        <p class="hero__lead" id="conference-organisers"></p>
         <div class="hero__meta" id="conference-meta"></div>
       </div>
     </div>
@@ -30,18 +30,26 @@
       <nav class="day-tabs" id="day-tabs" aria-label="Conference days"></nav>
       <div class="toolbar__actions">
         <button class="button button--secondary" id="show-all" type="button">Show all days</button>
+        <button class="button button--secondary" id="edit-programme" type="button">Edit programme</button>
+        <button class="button button--secondary editor-only" id="export-data" type="button" hidden>Download data</button>
+        <button class="button button--secondary editor-only" id="reset-edits" type="button" hidden>Reset edits</button>
         <button class="button" id="print-programme" type="button">Print / Save PDF</button>
       </div>
     </div>
   </div>
 
   <main id="programme" class="page-shell" tabindex="-1">
+    <div class="edit-banner no-print" id="edit-banner" hidden>
+      <strong>Edit mode is on.</strong>
+      Click any outlined text and type. Changes are saved automatically in this browser. Use <b>Download data</b> to export the updated <code>programme.js</code> for the repository.
+    </div>
+
     <section class="intro-card no-print" aria-labelledby="about-title">
       <div>
         <p class="kicker">Programme at a glance</p>
-        <h2 id="about-title">One editable source, web and PDF output</h2>
+        <h2 id="about-title">Fast editing, web view and PDF output</h2>
       </div>
-      <p>The schedule below is generated from <code>data/programme.js</code>. Edit that file to update times, sessions, speakers, venues or remarks. TBC/TBA items remain visibly marked while the programme is being finalised.</p>
+      <p>For quick changes, use <strong>Edit programme</strong> directly on this page. For permanent repository changes, edit or replace <code>data/programme.js</code>. TBC/TBA/TBD items remain visibly marked while the programme is being finalised.</p>
     </section>
 
     <div id="programme-root" class="programme-root" aria-live="polite"></div>
