@@ -72,7 +72,10 @@
         <div class="section-editor__head">
           <h3>${esc(section.title)}</h3>
           <div class="mini-actions">
-            <button class="mini-button mini-button--danger" data-remove-section="${di},${si}">Remove section</button>
+            <button class="mini-button" type="button" data-copy-section="${di},${si}" title="Duplicate this section">Copy section</button>
+            <button class="mini-button" type="button" data-move-section-up="${di},${si}" ${si === 0 ? 'disabled' : ''} title="Move section up">↑ Up</button>
+            <button class="mini-button" type="button" data-move-section-down="${di},${si}" ${si === state.days[di].sections.length - 1 ? 'disabled' : ''} title="Move section down">↓ Down</button>
+            <button class="mini-button mini-button--danger" type="button" data-remove-section="${di},${si}">Remove section</button>
           </div>
         </div>
         <div class="editor-grid">
@@ -166,6 +169,30 @@
       state.days[di].sections.push({title:'New section',type:'standard',items:[]});
       save(); render();
     }));
+    document.querySelectorAll('[data-copy-section]').forEach(btn => btn.addEventListener('click', () => {
+      const [di,si] = btn.dataset.copySection.split(',').map(Number);
+      const sections = state.days[di].sections;
+      const copy = JSON.parse(JSON.stringify(sections[si]));
+      sections.splice(si + 1, 0, copy);
+      save(); render();
+    }));
+
+    document.querySelectorAll('[data-move-section-up]').forEach(btn => btn.addEventListener('click', () => {
+      const [di,si] = btn.dataset.moveSectionUp.split(',').map(Number);
+      if (si <= 0) return;
+      const sections = state.days[di].sections;
+      [sections[si - 1], sections[si]] = [sections[si], sections[si - 1]];
+      save(); render();
+    }));
+
+    document.querySelectorAll('[data-move-section-down]').forEach(btn => btn.addEventListener('click', () => {
+      const [di,si] = btn.dataset.moveSectionDown.split(',').map(Number);
+      const sections = state.days[di].sections;
+      if (si >= sections.length - 1) return;
+      [sections[si], sections[si + 1]] = [sections[si + 1], sections[si]];
+      save(); render();
+    }));
+
     document.querySelectorAll('[data-remove-section]').forEach(btn => btn.addEventListener('click', () => {
       const [di,si] = btn.dataset.removeSection.split(',').map(Number);
       state.days[di].sections.splice(si,1);
