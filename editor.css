@@ -2,3 +2,10 @@
 .mini-button:disabled{opacity:.35;cursor:not-allowed;background:#f1f4f7;color:#7d8995}
 .item-editor__head .mini-actions{justify-content:flex-end}
 @media(max-width:620px){.item-editor__head{align-items:flex-start;flex-direction:column}.item-editor__head .mini-actions{width:100%}.item-editor__head .mini-button{flex:1}}
+
+.section-editor__head .mini-actions{justify-content:flex-end}
+@media(max-width:760px){
+  .section-editor__head{align-items:flex-start;flex-direction:column}
+  .section-editor__head .mini-actions{width:100%}
+  .section-editor__head .mini-button{flex:1 1 auto}
+}
