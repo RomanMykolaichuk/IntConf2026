@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Programme Editor — IntConf2026</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body class="editor-body">
+  <header class="editor-topbar">
+    <div>
+      <p class="kicker">IntConf2026</p>
+      <h1>Programme Editor</h1>
+      <p>Edit the conference programme without touching HTML.</p>
+    </div>
+    <div class="editor-actions">
+      <a class="button button--secondary" href="index.html">Preview programme</a>
+      <button class="button button--secondary" id="reset-data" type="button">Reset</button>
+      <button class="button" id="download-js" type="button">Download programme.js</button>
+    </div>
+  </header>
+
+  <main class="editor-shell">
+    <section class="editor-note">
+      <strong>How it works:</strong>
+      edit fields below → changes are saved automatically in this browser → click
+      <strong>Download programme.js</strong> and replace <code>data/programme.js</code> in the repository.
+    </section>
+
+    <section id="conference-editor" class="editor-card"></section>
+    <section id="days-editor"></section>
+  </main>
+
+  <script src="data/programme.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>
