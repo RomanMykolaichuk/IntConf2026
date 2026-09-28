@@ -97,7 +97,12 @@
       <div class="item-editor">
         <div class="item-editor__head">
           <strong>Item ${ii+1}</strong>
-          <button class="mini-button mini-button--danger" data-remove-item="${di},${si},${ii}">Remove</button>
+          <div class="mini-actions">
+            <button class="mini-button" type="button" data-copy-item="${di},${si},${ii}" title="Duplicate this item">Copy</button>
+            <button class="mini-button" type="button" data-move-item-up="${di},${si},${ii}" ${ii === 0 ? 'disabled' : ''} title="Move item up">↑ Up</button>
+            <button class="mini-button" type="button" data-move-item-down="${di},${si},${ii}" ${ii === state.days[di].sections[si].items.length - 1 ? 'disabled' : ''} title="Move item down">↓ Down</button>
+            <button class="mini-button mini-button--danger" type="button" data-remove-item="${di},${si},${ii}">Remove</button>
+          </div>
         </div>
         <div class="editor-grid">
           ${input('Time', item.time || '', base+'.time')}
@@ -127,6 +132,30 @@
       state.days[di].sections[si].items.push({time:'',activity:'New item',topic:'',remarks:''});
       save(); render();
     }));
+    document.querySelectorAll('[data-copy-item]').forEach(btn => btn.addEventListener('click', () => {
+      const [di,si,ii] = btn.dataset.copyItem.split(',').map(Number);
+      const items = state.days[di].sections[si].items;
+      const copy = JSON.parse(JSON.stringify(items[ii]));
+      items.splice(ii + 1, 0, copy);
+      save(); render();
+    }));
+
+    document.querySelectorAll('[data-move-item-up]').forEach(btn => btn.addEventListener('click', () => {
+      const [di,si,ii] = btn.dataset.moveItemUp.split(',').map(Number);
+      if (ii <= 0) return;
+      const items = state.days[di].sections[si].items;
+      [items[ii - 1], items[ii]] = [items[ii], items[ii - 1]];
+      save(); render();
+    }));
+
+    document.querySelectorAll('[data-move-item-down]').forEach(btn => btn.addEventListener('click', () => {
+      const [di,si,ii] = btn.dataset.moveItemDown.split(',').map(Number);
+      const items = state.days[di].sections[si].items;
+      if (ii >= items.length - 1) return;
+      [items[ii], items[ii + 1]] = [items[ii + 1], items[ii]];
+      save(); render();
+    }));
+
     document.querySelectorAll('[data-remove-item]').forEach(btn => btn.addEventListener('click', () => {
       const [di,si,ii] = btn.dataset.removeItem.split(',').map(Number);
       state.days[di].sections[si].items.splice(ii,1);
