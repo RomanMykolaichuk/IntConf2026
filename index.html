@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#082f5b">
+  <meta name="description" content="Draft programme for the RDDC–NDUU International Conference on Artificial Intelligence in Military Education and Defence, Kyiv, October 2026.">
+  <title>AI in Military Education and Defence — Conference Programme</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#programme">Skip to programme</a>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <div class="hero__brand-wrap" aria-hidden="true">
+        <img class="hero__brand" src="assets/conference-brand.webp" alt="">
+      </div>
+      <div class="hero__copy">
+        <div class="eyebrow">International Conference · Draft Programme</div>
+        <h1>Artificial Intelligence in Military Education and Defence</h1>
+        <p class="hero__lead">RDDC · National Defence University of Ukraine</p>
+        <div class="hero__meta" id="conference-meta"></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar-shell no-print">
+    <div class="toolbar" aria-label="Programme controls">
+      <nav class="day-tabs" id="day-tabs" aria-label="Conference days"></nav>
+      <div class="toolbar__actions">
+        <button class="button button--secondary" id="show-all" type="button">Show all days</button>
+        <button class="button" id="print-programme" type="button">Print / Save PDF</button>
+      </div>
+    </div>
+  </div>
+
+  <main id="programme" class="page-shell" tabindex="-1">
+    <section class="intro-card no-print" aria-labelledby="about-title">
+      <div>
+        <p class="kicker">Programme at a glance</p>
+        <h2 id="about-title">One editable source, web and PDF output</h2>
+      </div>
+      <p>The schedule below is generated from <code>data/programme.js</code>. Edit that file to update times, sessions, speakers, venues or remarks. TBC/TBA items remain visibly marked while the programme is being finalised.</p>
+    </section>
+
+    <div id="programme-root" class="programme-root" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell site-footer__inner">
+      <div>
+        <strong>AI in Military Education and Defence</strong>
+        <span>RDDC · NDUU · Kyiv · October 2026</span>
+      </div>
+      <span class="site-footer__status">Draft programme — subject to update</span>
+    </div>
+  </footer>
+
+  <script src="data/programme.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
