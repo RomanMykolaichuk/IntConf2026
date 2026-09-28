@@ -89,7 +89,7 @@ window.CONFERENCE_PROGRAMME = {
             },
             {
               "time": "09:40–09:45",
-              "activity": "Group photo?",
+              "activity": "Time reserve",
               "remarks": ""
             }
           ]
@@ -106,32 +106,32 @@ window.CONFERENCE_PROGRAMME = {
             {
               "time": "09:45–9:50",
               "activity": "Panelist presentation from the RDDC #1",
-              "topic": "The Thinking Is Part of the Training",
+              "topic": "Panelist 1 presentation",
               "remarks": "Ms. Ditte Mikkelsen, Assistant Professor, Institute for Strategy and War Studies."
             },
             {
               "time": "9:50–9:55",
               "activity": "Panelist presentation from the NDUU",
               "remarks": "Dr. Yurii Gusak, Professor, NDUU",
-              "topic": "Using AI assistante for asssesment"
+              "topic": "Panelist 2 presentation"
             },
             {
               "time": "9:55–10:00",
               "activity": "Panelist presentation from the RDDC #2",
-              "topic": "",
+              "topic": "Panelist 3 presentation",
               "remarks": "Dr. Tobias Boelt Back, Assistant Professor, Institute for Military Technology"
             },
             {
               "time": "10:00-10:05",
               "activity": "Panelist presentation from NATO DEEP eAcadamy",
               "remarks": "TBC",
-              "topic": "TBD"
+              "topic": "Panelist 4 presentation"
             },
             {
               "time": "10:05–10:10",
               "activity": "Panelist presentation from NATO DEEP eAcadamy",
               "remarks": "TBD",
-              "topic": "TBD"
+              "topic": "Panelist 5 presentation"
             },
             {
               "time": "10:10–11:00",
@@ -162,16 +162,16 @@ window.CONFERENCE_PROGRAMME = {
               "remarks": "Mr. Jens Vesterlund Mathiesen, Director of Ukraine-programme, RDDC."
             },
             {
-              "time": "11:15–11:30",
-              "activity": "Presentation from RDDC #1",
-              "topic": "Trusting the AI-tools? Implications for training and learning",
-              "remarks": "Dr. Tobias Boelt Back, Assistant Professor, Institute for Military Technology"
-            },
-            {
               "time": "11:30–11:45",
-              "activity": "",
+              "activity": "Presentation from RDDC #1",
               "topic": "The Thinking Is Part of the Training",
               "remarks": "Ms. Ditte Mikkelsen, Assistant Professor, Institute for Strategy and War Studies."
+            },
+            {
+              "time": "11:15–11:30",
+              "activity": "Presentation from RDDC #2",
+              "topic": "Trusting the AI-tools? Implications for training and learning",
+              "remarks": "Dr. Tobias Boelt Back, Assistant Professor, Institute for Military Technology"
             },
             {
               "time": "11:45–12:00",
@@ -210,7 +210,7 @@ window.CONFERENCE_PROGRAMME = {
             {
               "time": "14:05–14:30",
               "activity": "Q&A",
-              "remarks": ""
+              "remarks": "May be the slot for another Invited Key Note"
             }
           ]
         },
@@ -231,26 +231,36 @@ window.CONFERENCE_PROGRAMME = {
           "items": [
             {
               "time": "14:45",
-              "activity": "Introduction by moderator from RDDC",
-              "remarks": "Mr. Jens Vesterlund Mathiesen, Director of Ukraine-programme, RDDC."
+              "activity": "Introduction by moderators from the RDDC&NATO DEEP",
+              "remarks": "Mr. Jens Vesterlund Mathiesen\nDanuta Pietraszkiewicz, NATO DEEP"
             },
             {
               "time": "14:45–14:50",
-              "activity": "Panelist presentation from the RDDC",
+              "activity": "Panelist 1 presentation from the RDDC",
               "remarks": "TBC"
             },
             {
               "time": "14:50–14:55",
-              "activity": "Panelist presentation from the NDUU",
-              "remarks": ""
+              "activity": "Panelist 2 presentation from the NDUU",
+              "remarks": "Dr. Roman Mykolaichuk, NDUU"
             },
             {
               "time": "14:55–15:00",
-              "activity": "Presentation from NATO DEEP eAcademy",
+              "activity": "Panelist 3 presentation from (NDUU or RDDC)",
               "remarks": ""
             },
             {
-              "time": "15:00–16:00",
+              "time": "15:00–15:05",
+              "activity": "Panelist 4 presentation from NATO DEEP eAcademy",
+              "remarks": ""
+            },
+            {
+              "time": "15:05–15:10",
+              "activity": "Panelist 5 presentation from NATO DEEP eAcademy",
+              "remarks": ""
+            },
+            {
+              "time": "15:10–16:00",
               "activity": "Q&A",
               "remarks": ""
             },
@@ -316,13 +326,19 @@ window.CONFERENCE_PROGRAMME = {
               "remarks": "Ms. Linda Hasselstrom and Major Allan Nielsen, RDDC."
             },
             {
-              "time": "10:00–13:00",
-              "activity": "TRACK 1: AI in Education",
+              "time": "10:00–11:00",
+              "activity": "Panel",
+              "remarks": "Presentations and Q&A from NDUU and RDDC",
+              "topic": "Implementing AI-tools"
+            },
+            {
+              "time": "11:00–13:00",
+              "activity": "TRACK 1: AI in Operations",
               "remarks": "Roundtable briefings and discussions focusing on selected topics: TBA"
             },
             {
-              "time": "10:00–13:00",
-              "activity": "TRACK 1: AI in Operations",
+              "time": "11:00–13:00",
+              "activity": "TRACK 2: AI in Operations",
               "remarks": "Roundtable briefings and discussions focusing on selected topics: TBA"
             },
             {
