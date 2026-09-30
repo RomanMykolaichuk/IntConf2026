@@ -171,11 +171,6 @@ window.CONFERENCE_PROGRAMME = {
               "activity": "Invited Keynote Speech",
               "topic": "TBC",
               "remarks": "Mr. Gigi Roman, Advanced Distributed Learning (ADL) Program Manager, NATO School Oberammergau."
-            },
-            {
-              "time": "13:50–14:30",
-              "activity": "Q&A / possible additional invited keynote",
-              "remarks": "May be the slot for another Invited Key Note"
             }
           ]
         },
@@ -184,27 +179,21 @@ window.CONFERENCE_PROGRAMME = {
           "type": "panel",
           "items": [
             {
-              "time": "14:30–14:35",
+              "time": "13:50–13:55",
               "activity": "Introduction by moderator from RDDC",
               "remarks": "Mr. Jens Vesterlund Mathiesen, RDDC."
             },
             {
-              "time": "14:35–14:50",
+              "time": "13:55–14:10",
               "activity": "Panelist presentation from NDUU",
               "topic": "TBC",
               "remarks": "Dr. Roman Mykolaichuk, NDUU"
             },
             {
-              "time": "14:50–15:05",
+              "time": "14:10–14:25",
               "activity": "Panelist presentation from NATO DEEP eAcademy",
               "topic": "TBC",
               "remarks": "TBC"
-            },
-            {
-              "time": "15:05–15:20",
-              "activity": "Joint panelist presentation from RDDC",
-              "topic": "From AI Tools to AI-Ready Military Education: Transforming Teaching, Assessment and Professional Competence",
-              "remarks": "Ms. Linda Hasselstrom and Major Allan Nielsen, RDDC."
             }
           ]
         },
@@ -213,9 +202,21 @@ window.CONFERENCE_PROGRAMME = {
           "type": "break",
           "items": [
             {
-              "time": "15:20–15:35",
+              "time": "14:25–14:40",
               "activity": "Coffee/tea break",
-              "remarks": "Coffee break 3 · after Panel 2 presentations"
+              "remarks": "Coffee break 3 · after Panel 2 presentations and before the RDDC workshop"
+            }
+          ]
+        },
+        {
+          "title": "RDDC facilitated workshop",
+          "type": "panel",
+          "items": [
+            {
+              "time": "14:40–15:25",
+              "activity": "RDDC facilitated workshop",
+              "topic": "From AI Tools to AI-Ready Military Education: Transforming Teaching, Assessment and Professional Competence",
+              "remarks": "Ms. Linda Hasselstrom and Major Allan Nielsen, RDDC."
             }
           ]
         },
@@ -224,7 +225,7 @@ window.CONFERENCE_PROGRAMME = {
           "type": "panel",
           "items": [
             {
-              "time": "15:35–16:30",
+              "time": "15:25–16:30",
               "activity": "Moderated panel discussion and audience Q&A",
               "remarks": ""
             }
