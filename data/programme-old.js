@@ -64,8 +64,8 @@ window.CONFERENCE_PROGRAMME = {
           "items": [
             {
               "time": "08:30–09:00",
-              "activity": "Arrival, registration and welcome coffee/tea",
-              "remarks": "Coffee break 1 · Conference Room “Oleksandriia” (in basement: -2nd floor)"
+              "activity": "Arrival and registration",
+              "remarks": "Conference Room “Oleksandriia” (in basement: -2nd floor)"
             },
             {
               "time": "09:00–09:10",
@@ -89,43 +89,55 @@ window.CONFERENCE_PROGRAMME = {
             },
             {
               "time": "09:40–09:45",
-              "activity": "Group photo",
+              "activity": "Time reserve",
               "remarks": ""
             }
           ]
         },
         {
-          "title": "Panel 1: AI in PME: Learning Processes and Critical Thinking",
+          "title": "Panel discussion 1: AI in PME: Learning Processes and Critical Thinking",
           "type": "panel",
           "items": [
             {
-              "time": "09:45–09:50",
-              "activity": "Introduction by moderators from NDUU and NATO DEEP",
+              "time": "09:45",
+              "activity": "Introduction by moderators from the NDUU&NATO DEEP",
               "remarks": "Dr. Roman Mykolaichuk, NDUU\nDanuta Pietraszkiewicz, NATO DEEP"
             },
             {
-              "time": "09:50–10:05",
-              "activity": "Panelist presentation from RDDC #1",
-              "topic": "The Thinking Is Part of the Training",
+              "time": "09:45–9:50",
+              "activity": "Panelist presentation from the RDDC #1",
+              "topic": "Panelist 1 presentation",
               "remarks": "Ms. Ditte Mikkelsen, Assistant Professor, Institute for Strategy and War Studies."
             },
             {
-              "time": "10:05–10:20",
-              "activity": "Panelist presentation from NDUU",
-              "topic": "TBC",
-              "remarks": "Dr. Yurii Gusak, Professor, NDUU"
+              "time": "9:50–9:55",
+              "activity": "Panelist presentation from the NDUU",
+              "remarks": "Dr. Yurii Gusak, Professor, NDUU",
+              "topic": "Panelist 2 presentation"
             },
             {
-              "time": "10:20–10:35",
-              "activity": "Panelist presentation from RDDC #2",
-              "topic": "Trusting the AI-tools? Implications for training and learning",
+              "time": "9:55–10:00",
+              "activity": "Panelist presentation from the RDDC #2",
+              "topic": "Panelist 3 presentation",
               "remarks": "Dr. Tobias Boelt Back, Assistant Professor, Institute for Military Technology"
             },
             {
-              "time": "10:35–10:50",
-              "activity": "Panelist presentation from NATO DEEP eAcademy",
-              "topic": "TBC",
-              "remarks": "TBC"
+              "time": "10:00-10:05",
+              "activity": "Panelist presentation from NATO DEEP eAcadamy",
+              "remarks": "TBC",
+              "topic": "Panelist 4 presentation"
+            },
+            {
+              "time": "10:05–10:10",
+              "activity": "Panelist presentation from NATO DEEP eAcadamy",
+              "remarks": "TBD",
+              "topic": "Panelist 5 presentation"
+            },
+            {
+              "time": "10:10–11:00",
+              "activity": "Discussion, Q&A",
+              "topic": "",
+              "remarks": ""
             }
           ]
         },
@@ -134,20 +146,44 @@ window.CONFERENCE_PROGRAMME = {
           "type": "break",
           "items": [
             {
-              "time": "10:50–11:05",
-              "activity": "Coffee/tea break",
-              "remarks": "Coffee break 2 · after Panel 1 presentations"
+              "time": "11:00–11:15",
+              "activity": "Coffee break",
+              "remarks": ""
             }
           ]
         },
         {
-          "title": "Panel 1 discussion",
+          "title": "Key Note Panel 2: ",
           "type": "panel",
           "items": [
             {
-              "time": "11:05–12:00",
-              "activity": "Moderated panel discussion and audience Q&A",
-              "remarks": ""
+              "time": "11:15",
+              "activity": "Introduction by moderator from RDDC",
+              "remarks": "Mr. Jens Vesterlund Mathiesen, Director of Ukraine-programme, RDDC."
+            },
+            {
+              "time": "11:30–11:45",
+              "activity": "Presentation from RDDC #1",
+              "topic": "The Thinking Is Part of the Training",
+              "remarks": "Ms. Ditte Mikkelsen, Assistant Professor, Institute for Strategy and War Studies."
+            },
+            {
+              "time": "11:15–11:30",
+              "activity": "Presentation from RDDC #2",
+              "topic": "Trusting the AI-tools? Implications for training and learning",
+              "remarks": "Dr. Tobias Boelt Back, Assistant Professor, Institute for Military Technology"
+            },
+            {
+              "time": "11:45–12:00",
+              "activity": "Presentation from NATO DEEP eAcadamy",
+              "remarks": "TBC",
+              "topic": "TBD"
+            },
+            {
+              "time": "12:00–12:45",
+              "activity": "Presentation from NDUU",
+              "remarks": "TBD",
+              "topic": "TBD"
             }
           ]
         },
@@ -156,7 +192,7 @@ window.CONFERENCE_PROGRAMME = {
           "type": "break",
           "items": [
             {
-              "time": "12:00–13:30",
+              "time": "12:45–13:45",
               "activity": "Lunch break",
               "remarks": ""
             }
@@ -167,44 +203,14 @@ window.CONFERENCE_PROGRAMME = {
           "type": "keynote",
           "items": [
             {
-              "time": "13:30–13:50",
+              "time": "13:45–14:05",
               "activity": "Invited Keynote Speech",
-              "topic": "TBC",
-              "remarks": "Mr. Gigi Roman, Advanced Distributed Learning (ADL) Program Manager, NATO School Oberammergau."
+              "remarks": "Mr. Gigi Roman, Advanced Distributed Learning (ADL) Program Manager, at NATO School Oberammergau."
             },
             {
-              "time": "13:50–14:30",
+              "time": "14:05–14:30",
               "activity": "Q&A",
-              "remarks": ""
-            }
-          ]
-        },
-        {
-          "title": "Panel 2: AI in Military Education: Empowering the Educator?",
-          "type": "panel",
-          "items": [
-            {
-              "time": "14:30–14:35",
-              "activity": "Introduction by moderator from RDDC",
-              "remarks": "Mr. Jens Vesterlund Mathiesen, RDDC."
-            },
-            {
-              "time": "14:35–14:50",
-              "activity": "Panelist presentation from NDUU",
-              "topic": "TBC",
-              "remarks": "Dr. Roman Mykolaichuk, NDUU"
-            },
-            {
-              "time": "14:50–15:05",
-              "activity": "Panelist presentation from NATO DEEP eAcademy",
-              "topic": "TBC",
-              "remarks": "TBC"
-            },
-            {
-              "time": "15:05–15:20",
-              "activity": "Joint panelist presentation from RDDC",
-              "topic": "From AI Tools to AI-Ready Military Education: Transforming Teaching, Assessment and Professional Competence",
-              "remarks": "Ms. Linda Hasselstrom and Major Allan Nielsen, RDDC."
+              "remarks": "May be the slot for another Invited Key Note"
             }
           ]
         },
@@ -213,34 +219,58 @@ window.CONFERENCE_PROGRAMME = {
           "type": "break",
           "items": [
             {
-              "time": "15:20–15:35",
-              "activity": "Coffee/tea break",
-              "remarks": "Coffee break 3 · after Panel 2 presentations"
-            }
-          ]
-        },
-        {
-          "title": "Panel 2 discussion",
-          "type": "panel",
-          "items": [
-            {
-              "time": "15:35–16:30",
-              "activity": "Moderated panel discussion and audience Q&A",
+              "time": "14:30–14:45",
+              "activity": "Coffee break",
               "remarks": ""
             }
           ]
         },
         {
-          "title": "Closing",
-          "type": "standard",
+          "title": "Panel Discussion 3: AI in Military Education: Empowering the Educator?",
+          "type": "panel",
           "items": [
             {
-              "time": "16:30–16:45",
+              "time": "14:45",
+              "activity": "Introduction by moderators from the RDDC&NATO DEEP",
+              "remarks": "Mr. Jens Vesterlund Mathiesen\nDanuta Pietraszkiewicz, NATO DEEP"
+            },
+            {
+              "time": "14:45–14:50",
+              "activity": "Panelist 1 presentation from the RDDC",
+              "remarks": "TBC"
+            },
+            {
+              "time": "14:50–14:55",
+              "activity": "Panelist 2 presentation from the NDUU",
+              "remarks": "Dr. Roman Mykolaichuk, NDUU"
+            },
+            {
+              "time": "14:55–15:00",
+              "activity": "Panelist 3 presentation from (NDUU or RDDC)",
+              "remarks": ""
+            },
+            {
+              "time": "15:00–15:05",
+              "activity": "Panelist 4 presentation from NATO DEEP eAcademy",
+              "remarks": ""
+            },
+            {
+              "time": "15:05–15:10",
+              "activity": "Panelist 5 presentation from NATO DEEP eAcademy",
+              "remarks": ""
+            },
+            {
+              "time": "15:10–16:00",
+              "activity": "Q&A",
+              "remarks": ""
+            },
+            {
+              "time": "16:00–16:30",
               "activity": "Closing remarks from heads of delegations",
               "remarks": ""
             },
             {
-              "time": "16:45–17:00",
+              "time": "16:30–",
               "activity": "Wrap up and farewell",
               "remarks": ""
             }
@@ -276,7 +306,7 @@ window.CONFERENCE_PROGRAMME = {
       ],
       "sections": [
         {
-          "title": "Opening and implementation exchange",
+          "title": "Workshops and roundtable",
           "type": "standard",
           "items": [
             {
@@ -285,49 +315,32 @@ window.CONFERENCE_PROGRAMME = {
               "remarks": ""
             },
             {
-              "time": "09:00–09:10",
-              "activity": "Introduction by moderator",
-              "remarks": "TBC"
+              "time": "09:00–13:00",
+              "activity": "Workshops and roundtable and facilitated interaction between RDDC and NDUU researchers",
+              "remarks": "Detailed programme will be developed"
             },
             {
-              "time": "09:10–09:25",
-              "activity": "Presentation from NDUU",
-              "topic": "Implementing AI-tools at NDUU: NDUU Reflections and lessons learned",
-              "remarks": ""
+              "time": "09:00–10:00",
+              "activity": "Opening joint workshop",
+              "topic": "From AI Tools to AI-Ready Military Education: Transforming Teaching, Assessment and Professional Competence",
+              "remarks": "Ms. Linda Hasselstrom and Major Allan Nielsen, RDDC."
             },
             {
-              "time": "09:25–09:40",
-              "activity": "Presentation from RDDC",
-              "topic": "Implementing AI-tools at the RDDC: Reflections and lessons learned",
-              "remarks": "Lt. Col. (r) Kristian Teglbjærg, Director for the Development Section, RDDC.\nMr. Magnus Frank, Senior Advisor, Development Section, RDDC."
+              "time": "10:00–11:00",
+              "activity": "Panel",
+              "remarks": "Presentations and Q&A from NDUU and RDDC",
+              "topic": "Implementing AI-tools"
             },
             {
-              "time": "09:40–10:00",
-              "activity": "Q&A",
-              "remarks": ""
-            }
-          ]
-        },
-        {
-          "title": "Parallel roundtable tracks",
-          "type": "standard",
-          "items": [
-            {
-              "time": "10:15–13:00",
-              "activity": "TRACK 1: AI in Education",
+              "time": "11:00–13:00",
+              "activity": "TRACK 1: AI in Operations",
               "remarks": "Roundtable briefings and discussions focusing on selected topics: TBA"
             },
             {
-              "time": "10:15–13:00",
+              "time": "11:00–13:00",
               "activity": "TRACK 2: AI in Operations",
               "remarks": "Roundtable briefings and discussions focusing on selected topics: TBA"
-            }
-          ]
-        },
-        {
-          "title": "Afternoon",
-          "type": "standard",
-          "items": [
+            },
             {
               "time": "13:00–14:00",
               "activity": "Lunch at NDUU",
@@ -335,12 +348,12 @@ window.CONFERENCE_PROGRAMME = {
             },
             {
               "time": "14:00–15:00",
-              "activity": "Continued meetings and exchanges",
-              "remarks": "If necessary"
+              "activity": "Continued meetings and exchanges (if necessary)",
+              "remarks": ""
             },
             {
-              "time": "After 15:00",
-              "activity": "Farewell and transport from NDUU to hotel",
+              "time": "Farewell",
+              "activity": "Transport from NDUU to hotel",
               "remarks": ""
             }
           ]
