@@ -75,7 +75,7 @@ window.CONFERENCE_PROGRAMME = {
             {
               "time": "09:01–09:10",
               "activity": "Organizers introduction",
-              "remarks": "Dr. Roman"
+              "remarks": "Dr. Roman Mykolaichuk, NDUU"
             },
             {
               "time": "09:10–09:20",
@@ -303,9 +303,9 @@ window.CONFERENCE_PROGRAMME = {
             },
             {
               "time": "09:10–09:25",
-              "activity": "Presentation from NDUU",
+              "activity": "Presentation on NDUU achievements and practical experience in integrating AI",
               "topic": "Implementing AI-tools at NDUU: NDUU Reflections and lessons learned",
-              "remarks": ""
+              "remarks": "Dr. Roman Mykolaichuk, NDUU"
             },
             {
               "time": "09:25–09:40",
