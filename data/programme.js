@@ -174,8 +174,8 @@ window.CONFERENCE_PROGRAMME = {
             },
             {
               "time": "13:50–14:30",
-              "activity": "Q&A",
-              "remarks": ""
+              "activity": "Q&A / possible additional invited keynote",
+              "remarks": "May be the slot for another Invited Key Note"
             }
           ]
         },
@@ -304,6 +304,17 @@ window.CONFERENCE_PROGRAMME = {
             {
               "time": "09:40–10:00",
               "activity": "Q&A",
+              "remarks": ""
+            }
+          ]
+        },
+        {
+          "title": "Coffee break",
+          "type": "break",
+          "items": [
+            {
+              "time": "10:00–10:15",
+              "activity": "Coffee/tea break",
               "remarks": ""
             }
           ]
