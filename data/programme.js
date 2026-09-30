@@ -68,7 +68,12 @@ window.CONFERENCE_PROGRAMME = {
               "remarks": "Coffee break 1 · Conference Room “Oleksandriia” (in basement: -2nd floor)"
             },
             {
-              "time": "09:00–09:10",
+              "time": "09:00–09:01",
+              "activity": "Minute of Silence",
+              "remarks": ""
+            },
+            {
+              "time": "09:01–09:10",
               "activity": "Organizers introduction",
               "remarks": "Dr. Roman"
             },
@@ -86,11 +91,6 @@ window.CONFERENCE_PROGRAMME = {
               "time": "09:30–09:40",
               "activity": "Welcome remarks from NATO DEEP",
               "remarks": ""
-            },
-            {
-              "time": "09:40–09:45",
-              "activity": "Group photo",
-              "remarks": ""
             }
           ]
         },
@@ -99,30 +99,30 @@ window.CONFERENCE_PROGRAMME = {
           "type": "panel",
           "items": [
             {
-              "time": "09:45–09:50",
+              "time": "09:40–09:45",
               "activity": "Introduction by moderators from NDUU and NATO DEEP",
               "remarks": "Dr. Roman Mykolaichuk, NDUU\nDanuta Pietraszkiewicz, NATO DEEP"
             },
             {
-              "time": "09:50–10:05",
+              "time": "09:45–10:00",
               "activity": "Panelist presentation from RDDC #1",
               "topic": "The Thinking Is Part of the Training",
               "remarks": "Ms. Ditte Mikkelsen, Assistant Professor, Institute for Strategy and War Studies."
             },
             {
-              "time": "10:05–10:20",
+              "time": "10:00–10:15",
               "activity": "Panelist presentation from NDUU",
               "topic": "TBC",
               "remarks": "Dr. Yurii Gusak, Professor, NDUU"
             },
             {
-              "time": "10:20–10:35",
+              "time": "10:15–10:30",
               "activity": "Panelist presentation from RDDC #2",
               "topic": "Trusting the AI-tools? Implications for training and learning",
               "remarks": "Dr. Tobias Boelt Back, Assistant Professor, Institute for Military Technology"
             },
             {
-              "time": "10:35–10:50",
+              "time": "10:30–10:45",
               "activity": "Panelist presentation from NATO DEEP eAcademy",
               "topic": "TBC",
               "remarks": "TBC"
@@ -134,7 +134,7 @@ window.CONFERENCE_PROGRAMME = {
           "type": "break",
           "items": [
             {
-              "time": "10:50–11:05",
+              "time": "10:45–11:05",
               "activity": "Coffee/tea break",
               "remarks": "Coffee break 2 · after Panel 1 presentations"
             }
@@ -145,9 +145,20 @@ window.CONFERENCE_PROGRAMME = {
           "type": "panel",
           "items": [
             {
-              "time": "11:05–12:00",
+              "time": "11:05–11:55",
               "activity": "Moderated panel discussion and audience Q&A",
-              "remarks": ""
+              "remarks": "Moderators: Dr. Roman Mykolaichuk, NDUU; Danuta Pietraszkiewicz, NATO DEEP"
+            }
+          ]
+        },
+        {
+          "title": "Group photo",
+          "type": "standard",
+          "items": [
+            {
+              "time": "11:55–12:00",
+              "activity": "Group photo",
+              "remarks": "Before lunch"
             }
           ]
         },
@@ -180,8 +191,8 @@ window.CONFERENCE_PROGRAMME = {
           "items": [
             {
               "time": "13:50–13:55",
-              "activity": "Introduction by moderator from RDDC",
-              "remarks": "Mr. Jens Vesterlund Mathiesen, RDDC."
+              "activity": "Introduction by moderators from RDDC and NATO DEEP",
+              "remarks": "Mr. Jens Vesterlund Mathiesen, RDDC\nDanuta Pietraszkiewicz, NATO DEEP"
             },
             {
               "time": "13:55–14:10",
@@ -227,7 +238,7 @@ window.CONFERENCE_PROGRAMME = {
             {
               "time": "15:25–16:30",
               "activity": "Moderated panel discussion and audience Q&A",
-              "remarks": ""
+              "remarks": "Moderators: Mr. Jens Vesterlund Mathiesen, RDDC; Danuta Pietraszkiewicz, NATO DEEP"
             }
           ]
         },
